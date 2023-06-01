@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Practica
 {
-    public partial class Form1 : Form
+    public partial class Presupuesto : Form
     {
-        public Form1()
+        public Presupuesto()
         {
             InitializeComponent();
         }
@@ -50,6 +50,11 @@ namespace Practica
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Este botón filtra por características de los vuelos (a revisar)");
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
